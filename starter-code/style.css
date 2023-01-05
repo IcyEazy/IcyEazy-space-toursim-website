@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Lustria&display=swap');
+
+body{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+
+.home-body{
+    background-image: url("./assets/home/background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.dest-body{
+    background-image: url("./assets/destination/background-destination-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.crew-body{
+    background-image: url("./assets/crew/background-crew-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tech-body{
+    background-image: url("./assets/technology/background-technology-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.underline{
+    padding-bottom: .5rem;
+    border-bottom: 2px solid white;
+}
+.home, .destination, .crew-anch, .technology{
+    padding-bottom: 2.2rem;
+    border-bottom: 2px solid white; 
+}
+.serial-num-props{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+.mobile{
+    display: none;
+}
+.menu-btn{
+    cursor: pointer;
+}
+.mobile-menu{
+    text-align: center;
+    background-color: rgb(20, 16, 24);
+    padding: 2rem;
+    border-radius: 7px;
+    position: relative;
+    top: 2rem;
+}
+.mobile-menu p a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.mobile-menu p:hover{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+a, .titles, .num{
+    transition: all 0.4s;
+}
+
+a:hover, .titles:hover{
+    color: white;
+    font-weight: 600;
+}
+.num:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 600;
+}
+
+.tablet{
+    display: none;
+}
+
+.grey{
+    color: rgb(186, 179, 179);
+}
+
+header{
+    margin: 1rem auto 2.5rem 2.5rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+    background-color: rgb(36, 42, 48);
+    padding: 2.5rem 7rem 0 5rem;
+}
+
+ul li{
+    word-spacing: .7rem;
+}
+
+.dest{
+    margin: 0 2rem;
+}
+.crew{
+    margin-right: 2rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(186, 179, 179);
+    text-transform: uppercase;
+}
+
+nav a span{
+    color: white;
+}
+
+.home-body main{
+    margin-top: 7rem;
+}
+main{
+    margin: 3rem 7rem;
+}
+
+.space-explore{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.space{
+    width: 390px;
+}
+
+h1{
+    font-family: serif;
+    font-size: 80px;
+    margin: 1rem auto;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: .5rem;
+}
+
+p{
+    line-height: 30px;
+}
+
+.travel{
+    text-transform: uppercase;
+    font-size: 20px;
+    word-spacing: .3rem;
+}
+
+.explore{
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    padding: 5rem 2.5rem;
+    border-radius: 50%;
+    letter-spacing: .3rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.dest-content{
+    margin: auto 3rem;
+}
+.dest-content, .crew-content, .tech-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head{
+    text-transform: uppercase;
+    word-spacing: .5rem;
+    letter-spacing: .3rem;
+    font-size: 20px;
+}
+.head span{
+    margin-right: 1rem;
+    color: rgb(115, 110, 110);
+}
+.tech-body .head{
+    margin-left: 1rem;
+}
+.p-titles{
+    word-spacing: 2rem;
+    text-transform: uppercase;
+}
+.titles{
+    cursor: pointer;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: .4rem;
+    margin: 1rem auto;
+}
+.title-img img{
+    width: 100%;
+}
+.dis-tra{
+    font-size: 12px;
+}
+.avg-value, .est-time-value{
+    font-size: 20px;
+    word-spacing: .5rem;
+}
+.avg-value, .est-time-value, .role, .name{
+    text-transform: uppercase;
+}
+.avg-est{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4rem;
+}
+.title-img{
+    width: 30%;
+}
+.dest-content-texts{
+    width: 45%;
+}
+hr{
+    margin: 2rem auto;
+}
+.crew-content{
+    margin-top: 3rem;
+}
+.role{
+    font-size: 20px;
+}
+.name{
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: .4rem;
+    word-spacing: .5rem;
+}
+.bio{
+    padding-right: 15.8rem;
+}
+.crew-btn{
+    word-spacing: 1rem;
+    margin: 2rem auto;
+}
+.crew-tit-img{
+    width: 100%;
+}
+.crew-title-img{
+    width: 100%;
+}
+.cre{
+    cursor: pointer;
+}
+.num{
+    border: 1px solid white;
+    padding: .5rem 1.1rem;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 1rem;
+}
+.two{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.tech-tit-img{
+    width: 100%;
+}
+.term{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 5rem;
+}
+.tech-title{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 35px;
+    word-spacing: .7rem;
+    letter-spacing: .5rem;
+    margin: -.5rem auto 0 auto;
+}
+.tech-content-texts{
+    width: 60%;
+    padding: 0 4rem;
+}
+.tech-body main{
+    margin-right: 0;
+}
+.tech-about{
+    padding-right: 10rem;
+}
+
+input[type='radio']:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #9ca09c;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #9ca09c;
+}
+
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+
+@media screen and (max-width: 800px){
+    .home-body{
+        background-image: url("./assets/home/background-home-tablet.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dest-body{
+        background-image: url("./assets/destination/background-destination-tablet.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .crew-body{
+        background-image: url("./assets/crew/background-crew-tablet.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .tech-body{
+        background-image: url("./assets/technology/background-technology-tablet.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: flex;
+    }
+    header{
+        margin: -1rem 0 0 3rem;
+    }
+    .home-body main{
+        margin-top: 5rem;
+    }
+    main{
+        margin: 3rem 5rem;
+    }
+    .space{
+        width: 440px;
+    }
+    h1{
+        font-size: 120px;
+    }
+    ul{
+        padding: 2.5rem 5rem 0 3rem;
+    }
+    ul li{
+        word-spacing: .5rem;
+    }
+    .head{
+        margin-bottom: 2rem;
+    }
+    .dest{
+        margin: 0 1rem;
+    }
+    .crew{
+        margin-right: 1rem;
+    }
+    .space-explore{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .explore{
+        margin: 7rem auto auto auto;
+        font-size: 25px;
+        padding: 7rem 4rem;
+    }
+    .dest-body main, .crew-body main, .tech-body main{
+        text-align: center;
+    }
+    .dest-content{
+        flex-direction: column;
+        margin: 2rem;
+    }
+    .crew-content, .tech-content{
+        flex-direction: column;
+    }
+    .title-img{
+        width: 50%;
+        margin: 4.5rem auto;
+    }
+    .dest-content-texts{
+        width: auto;
+    }
+    .avg-est{
+        margin: auto 4rem;
+    }
+    .crew-tit-img{
+        width: 70%;
+    }
+    .crew-title-img{
+        width: auto;
+    }
+    .bio{
+        padding: 0 2rem;
+    }
+    .crew-btn{
+        margin: 2rem auto 4rem auto;
+    }
+    .serial-list{
+        display: flex;
+        justify-content: space-between;
+    }
+    .two{
+        margin: auto 1.5rem;
+    }
+    .tech-tit-img{
+        margin-top: 4rem;
+    }
+    .term{
+        margin: auto;
+    }
+    .tech-content-texts{
+        width: auto;
+        padding: 0 2rem;
+    }
+    .tech-body main{
+        margin-right: 5rem;
+    }
+    .tech-about{
+        padding-right: 0;
+    }
+    .tech-title{
+        margin: 2rem auto;
+    }
+    .tech-body .head{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 560px){
+    body{
+        padding: 1.5rem 2rem;
+    }
+    .home-body{
+        background-image: url("./assets/home/background-home-tablet.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dest-body{
+        background-image: url("./assets/destination/background-destination-tablet.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .crew-body{
+        background-image: url("./assets/crew/background-crew-tablet.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .tech-body{
+        background-image: url("./assets/technology/background-technology-tablet.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    header{
+        margin: 0;
+    }
+    .mobile{
+        display: block;
+    }
+    .home-body main{
+        margin-top: 0;
+    }
+    .dest-body main, .crew-body main, .tech-body main{
+        margin-top: 4rem;
+    }
+    main{
+        margin: auto;
+    }
+    h1{
+        font-size: 80px;
+    }
+    .space{
+        margin-top: 1rem;
+        width: auto;
+    }
+    .explore{
+        margin: 3rem auto;
+        padding: 5rem 2.5rem;
+        font-size: 20px;
+    }
+    .title{
+        font-size: 45px;
+    }
+    .title-img{
+        width: 70%;
+        margin: 2rem auto .8rem auto;
+    }
+    .dest-content, .tech-content{
+        margin: 2rem auto;
+    }
+    .dest-content-texts{
+        margin-top: 1rem;
+    }
+    .avg-est{
+        margin: auto;
+    }
+    .head{
+        word-spacing: .3rem;
+        letter-spacing: .1rem;
+    }
+    .head span{
+        margin-right: 0;
+    }
+    .crew-tit-img{
+        width: 100%;
+    }
+    .crew-title-img{
+        width: auto;
+    }
+    .bio{
+        padding: 0;
+    }
+    .tech-title{
+        font-size: 30px;
+    }
+    .tech-body main{
+        margin-right: auto;
+    }
+    .tech-content-texts{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .home-body{
+        background-image: url("./assets/home/background-home-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dest-body{
+        background-image: url("./assets/destination/background-destination-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .crew-body{
+        background-image: url("./assets/crew/background-crew-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .tech-body{
+        background-image: url("./assets/technology/background-technology-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
